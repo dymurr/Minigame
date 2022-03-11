@@ -1,0 +1,176 @@
+@font-face {
+  font-family: qbfont;
+  src: url(/html/img/Gilroy-Bold.ttf);
+}
+.minigame {
+  min-width: 1300px;
+  max-width: 1300px;
+  height: 750px;
+  min-height: 750px;
+  max-height: 750px;
+    position: absolute;
+    background-color: #444444;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
+}
+  .orb {
+    width: 75px;
+    border-radius: 50%;
+    height: 75px;
+    background-color: #dc143c;
+    position: Absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .hidden {
+  visibility: hidden;
+  }
+  .hit{
+  visibility: hidden;
+  }
+  .laptop3 {
+    position: absolute;
+    top: 98.6%;
+    left: 50.13%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 1667px;
+    height: 28px;
+    border-radius: 25px;
+    border-radius: 25px;
+    background-color: #171717;
+
+  }
+  .laptop2 {    
+    top: 71.9%;
+    left: 6.5%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 1670px;
+    height: 450px;
+    border-radius: 50px;
+    background-color: #171717;
+    background-blend-mode: soft-light;
+    opacity: 100%;
+    background-image: url(/html/img/keyboard3.png);
+    -webkit-transform: perspective(2000px) rotateX(75deg);
+    overflow: hidden;
+    background-size: cover;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: #171717;
+    scale: 90%;
+    position: absolute;
+}
+  .laptop {
+    width: 1400px;
+    min-width: 1400px;
+    max-width: 1400px;
+    height: 830px;
+    min-height: 830px;
+    max-height: 830px;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: #171717;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-size: cover;
+}
+  .Loading {
+    width: 800px;
+    min-width: 800px;
+    max-width: 800px;
+    height: 450px;
+    min-height: 450px;
+    max-height: 450px;
+    position: absolute;
+    background-color: #171717;
+    border-top: 30px;
+    border-color: white;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  .screen {
+    background-image: url(/html/img/download1.png);
+    width: 1300px;
+    min-width: 1300px;
+    max-width: 1300px;
+    height: 750px;
+    min-height: 750px;
+    max-height: 750px;
+    position: absolute;
+    background-color: #171717;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
+  }
+  .btn {    
+    position: absolute;
+    background-color: #171717;
+    background-image: url(../html/img/Logo.png);
+    border: none;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    Text-align: center;
+    white-space: nowrap;
+    border-radius: 25px;
+    background-size: cover;
+  }
+  .camera {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    border-radius: 50%;
+    top: 13.3%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .btn_box {
+  position: absolute;
+  top: 45%;
+  left: 77%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  }
+span {
+    color: white;
+    font-weight: bold;
+    font-family: qbfont;
+    top: 105px;
+    position: absolute;
+    white-space: nowrap;
+    left: 15px;
+}
+#rounds {
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: qbfont;
+  font-size: 64px;
+  color: #171717;
+  position: absolute;
+}
+
